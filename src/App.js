@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero"
 import Analytics from "./components/Analytics/Analytics";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Cards from "./components/Cards/Cards";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </div>
   );
 }
